@@ -22,7 +22,7 @@ block content
   .card.bg-light.card-body.mb-3
     h4 Compose new Tweet
     form(role='form', method='POST')
-      input(type='hidden', name='_csrf', value=_csrf)
+      //- input(type='hidden', name='_csrf', value=_csrf)
       .form-group
         input.form-control(type='text', name='tweet', autofocus)
         p.form-text This new Tweet will be posted on your Twitter profile.
